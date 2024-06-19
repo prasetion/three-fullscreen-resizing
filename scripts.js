@@ -45,7 +45,7 @@ window.addEventListener("resize", () => {
 
   // update renderer
   renderer.setSize(sizes.width, sizes.height);
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 3));
 });
 
 // event listener dblclick
